@@ -1,0 +1,32 @@
+.wraper{
+  max-width: 1880px;
+  margin: 0 auto;
+}
+
+.block{
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.search{
+  width: 395px;
+  border: 1px solid #DDDDDD;
+  background-color: #F9F9F9;
+  padding: 13px ;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+
+  &_input{
+    background-color: #F9F9F9;
+    margin-left: 10px;
+    outline: 0;
+    border:0 #FFFFFF;
+  }
+}
+.menu{
+  &_item{
+    
+  }
+
+}
