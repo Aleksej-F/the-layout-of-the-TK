@@ -332,5 +332,50 @@ body {
     display: flex;
     justify-content: space-between;
     gap: 19px;
+    &-card{
+      width: 459px;
+      height: 549px;
+      background-color: #FFFFFF;
+      border: 1px solid  #DDDDDD;
+      border-radius: 10px;
+      &-header{
+        height: 34px;
+        border-radius: 0px 0px 9px 9px;
+        background: #F0F5FF;
+        display: flex;
+        align-items: center;
+        svg{
+          margin: 0 0 0 7px;
+        }
+        p{
+          margin: 0 0 0 3px;
+          color: #4B79E0;
+        }
+      }
+      &-title{
+        display: flex;
+        padding: 30px 25px 25px;
+        justify-content: space-between;
+        align-items: center;
+        h3{
+          color: #111827;
+          font-family: Onest;
+          font-size: 35px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+          margin: 0;
+        }
+        p{
+          color: #797979;
+          font-family: Onest;
+          font-size: 18px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          margin: 0;
+        }
+      }
+    }
   }
 }

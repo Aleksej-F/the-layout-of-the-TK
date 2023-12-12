@@ -327,3 +327,48 @@ body {
   justify-content: space-between;
   gap: 19px;
 }
+.cards_block-card {
+  width: 459px;
+  height: 549px;
+  background-color: #FFFFFF;
+  border: 1px solid #DDDDDD;
+  border-radius: 10px;
+}
+.cards_block-card-header {
+  height: 34px;
+  border-radius: 0px 0px 9px 9px;
+  background: #F0F5FF;
+  display: flex;
+  align-items: center;
+}
+.cards_block-card-header svg {
+  margin: 0 0 0 7px;
+}
+.cards_block-card-header p {
+  margin: 0 0 0 3px;
+  color: #4B79E0;
+}
+.cards_block-card-title {
+  display: flex;
+  padding: 30px 25px 25px;
+  justify-content: space-between;
+  align-items: center;
+}
+.cards_block-card-title h3 {
+  color: #111827;
+  font-family: Onest;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0;
+}
+.cards_block-card-title p {
+  color: #797979;
+  font-family: Onest;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin: 0;
+}
