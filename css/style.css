@@ -1,66 +1,67 @@
 @font-face {
   font-family: "Onest";
-  src: url("../fonts/Onest-Regular.woff2") format("woff2") url("../fonts/Onest-Regular.woff") format("woff");
+  src: url("../fonts/Onest-Regular.woff") format("woff");
   font-weight: 1;
   font-style: normal;
 }
 @font-face {
   font-family: "Onest";
-  src: url("../fonts/Onest-Thin.woff2") format("woff2") url("../fonts/Onest-Thin.woff") format("woff");
+  src: url("../fonts/Onest-Thin.woff") format("woff");
   font-weight: 100;
   font-style: normal;
 }
 @font-face {
   font-family: "Onest";
-  src: url("../fonts/Onest-ExtraLight.woff2") format("woff2") url("../fonts/Onest-ExtraLight.woff") format("woff");
+  src: url("../fonts/Onest-ExtraLight.woff") format("woff");
   font-weight: 200;
   font-style: normal;
 }
 @font-face {
   font-family: "Onest";
-  src: url("../fonts/Onest-Light.woff2") format("woff2") url("../fonts/Onest-Light.woff") format("woff");
+  src: url("../fonts/Onest-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
 }
 @font-face {
   font-family: "Onest";
-  src: url("../fonts/Onest-Regular.woff2") format("woff2") url("../fonts/Onest-Regular.woff") format("woff");
+  src: url("../fonts/Onest-Regular.woff") format("woff");
   font-weight: 400;
   font-style: normal;
 }
 @font-face {
   font-family: "Onest";
-  src: url("../fonts/Onest-Medium.woff2") format("woff2") url("../fonts/Onest-Medium.woff") format("woff");
+  src: url("../fonts/Onest-Medium.woff") format("woff");
   font-weight: 500;
   font-style: normal;
 }
 @font-face {
   font-family: "Onest";
-  src: url("../fonts/Onest-SemiBold.woff2") format("woff2") url("../fonts/Onest-SemiBold.woff") format("woff");
+  src: url("../fonts/Onest-SemiBold.woff") format("woff");
   font-weight: 600;
   font-style: normal;
 }
 @font-face {
   font-family: "Onest";
-  src: url("../fonts/Onest-Bold.woff2") format("woff2") url("../fonts/Onest-Bold.woff") format("woff");
+  src: url("../fonts/Onest-Bold.woff") format("woff");
   font-weight: 700;
   font-style: normal;
 }
 @font-face {
   font-family: "Onest";
-  src: url("../fonts/Onest-ExtraBold.woff2") format("woff2") url("../fonts/Onest-ExtraBold.woff") format("woff");
+  src: url("../fonts/Onest-ExtraBold.woff") format("woff");
   font-weight: 800;
   font-style: normal;
 }
 @font-face {
   font-family: "Onest";
-  src: url("../fonts/Onest-Black.woff2") format("woff2") url("../fonts/Onest-Black.woff") format("woff");
+  src: url("../fonts/Onest-Black.woff") format("woff");
   font-weight: 900;
   font-style: normal;
 }
 body {
   margin: 0;
   padding: 0;
+  font-family: "Onest";
 }
 
 .wraper {
@@ -202,7 +203,7 @@ body {
   margin-top: 25px;
   margin-bottom: 13px;
   color: #111827;
-  font-family: Onest;
+  font-family: "Onest";
   font-size: 25px;
   font-style: normal;
   font-weight: 400;
@@ -236,7 +237,7 @@ body {
 }
 .region_documents-rows-item p {
   margin-left: 15px;
-  font-family: Onest;
+  font-family: "Onest";
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -273,7 +274,7 @@ body {
   padding: 10px 14px 10px 10px;
 }
 .chapter_filter-chapter-item h4 {
-  font-family: Onest;
+  font-family: "Onest";
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -290,7 +291,7 @@ body {
 }
 .chapter_filter-chapter-item p {
   color: #797979;
-  font-family: Onest;
+  font-family: "Onest";
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -339,7 +340,7 @@ body {
 .chapter_filter_facilities-item p {
   margin-left: 10px;
   color: #FFFFFF;
-  font-family: Onest;
+  font-family: "Onest";
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -358,7 +359,7 @@ body {
 }
 .chapter_filter_tasks-item p {
   margin: 0;
-  font-family: Onest;
+  font-family: "Onest";
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -416,7 +417,7 @@ body {
 }
 .cards_block-card-title h3 {
   color: #111827;
-  font-family: Onest;
+  font-family: "Onest";
   font-size: 35px;
   font-style: normal;
   font-weight: 500;
@@ -425,7 +426,7 @@ body {
 }
 .cards_block-card-title p {
   color: #797979;
-  font-family: Onest;
+  font-family: "Onest";
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -446,7 +447,7 @@ body {
   margin-top: 10px;
   margin-bottom: 0;
   color: #111827;
-  font-family: Onest;
+  font-family: "Onest";
   font-size: 25px;
   font-style: normal;
   font-weight: 400;
@@ -477,7 +478,7 @@ body {
 .cards_block-card-dynamics-item p {
   margin: 0 0 0 10px;
   color: #111827;
-  font-family: Onest;
+  font-family: "Onest";
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -525,7 +526,7 @@ body {
 .cards_block-card-end-tasks p {
   margin: 0;
   color: #111827;
-  font-family: Onest;
+  font-family: "Onest";
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
